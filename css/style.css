@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+}
+#container {
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0 0 20px rgb(36, 255, 255);
+}
+#principal{
+    margin: 0 auto;
+}
+header img {
+    width: 100%;
+    height: 150px;
+}
+nav {
+    width: 20%;
+    float: left;
+}
+#contenido {
+    width: 78%;
+    float: right;
+    padding-bottom: 30px;
+}
+#parrafos {
+    width: 80%;
+    float: right;
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+footer {
+    background-color: rgb(36, 255, 255);
+    color: rgb(6, 26, 143);
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+.cb {
+    clear: both;
+}
+nav ul, nav li {
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    list-style-type: none;
+    text-align: center;
+    color: rgb(2, 2, 85);
+    font-size: 22px;
+    border: solid 1px rgb(2, 2, 85);
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 4px;
+}
+nav ul li:hover {
+    color: rgb(195, 216, 248);
+    background-color: rgb(2, 2, 85);
+}
+a {
+    text-decoration: none;
+}
+.text-azulo {
+    color: rgb(2, 2, 85);
+}
+#home img{
+    padding-left: 120px;
+}
+.etiqueta  {
+    font-size: 34px;
+    color: rgb(255, 0, 0);
+}
+.centro {
+    text-align: center;
+}
+.titulo {
+    text-align: center;
+    color: rgb(2, 2, 85);
+}
+.text-derecha {
+    text-align: right;
+}
+.textnorm{
+    padding-left: 20px;
+    font-size: 15px;
+}
+#encabezados{
+    padding-left: 20px;
+}
+#tablas {
+    text-align: center;
+}
+#tablas table {
+    width: 80%;
+}
+#tdefault{
+    width: 90%;
+    margin: 0 auto;
+}
+#tdefault th{
+    background-color: #040449;
+    color: cyan;
+    font-size: 20px;
+}
+#tdefault td{
+    background-color: cyan;
+    color: #040449;
+}
+#tcombi {
+    width: 90%;
+    margin: 0 auto;
+}
+#tcombi th{
+    background-color: #20A336;
+    color: #FFFF00;
+    font-size: 20px;
+}
+#tcombi td{
+    background-color: #FFFF00;
+    color: #20A336;
+}
+#tparimpar {
+    width: 90%;
+    margin: 0 auto;
+}
+#tparimpar th{
+    background-color: #440744;
+    color: #C9C969;
+    font-size: 20px;
+}
+#tparimpar tr:nth-child(odd) td{
+background-color: #F8F8D4;
+}
+#tparimpar tr:nth-child(even) td{
+    background-color: #F8DCF8;
+    }
+#thorario table {
+    width: 90%;
+    margin: 0 auto;
+}
+#thorario table, #thorario td, #thorario th{
+    border: solid 1px rgb(151, 149, 149);
+}
+#thorario table{
+    border-spacing: 1px;
+}
+.fol{
+background-color: #FFD231;
+}
+.entornos {
+background-color: #7F81BE;
+}
+.basedatos {
+background-color:#81FF81;
+}
+.ingles {
+background-color: #EFF0C8;
+}
+.lenguaje {
+background-color: #FE8081;
+}
+.programacion {
+    background-color: #96DC96;
+}
+.sistemas {
+    background-color: #C9A0C8;
+}
+#thorario th {
+    color: #0C7A7B;
+}
+.txt-24{
+   font-size: 24px; 
+}
+.recreo {
+    color: #0C7A7B;
+}
+#customd li{
+    list-style-type: square;
+}
+#customd li li{
+    list-style-type: disc;
+}
+#customd li li li{
+    list-style-type: circle;
+}
+#customo li{
+    list-style-type: lower-alpha;
+}
+#customo li li{
+    list-style-image: url(../img/corazon.png) ;
+}
+#customo li li li{
+    list-style-type: lower-roman;
+    list-style-image: none;
+}
+#listas dt{
+    font-weight: bold;
+    color: rgb(255, 4, 4);
+}
+#registro fieldset{
+    width: 40%;
+}
+#grande fieldset{
+    width: 40%;
+    border-color: rgb(38, 255, 56);
+}
+#multimedia{
+    text-align: center;
+}
